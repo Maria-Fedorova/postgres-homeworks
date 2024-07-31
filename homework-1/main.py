@@ -26,10 +26,6 @@ def main():
     Основная функция выполнения программы(заполнение таблиц данными)
     """
     conn = psycopg2.connect(
-        # host=os.getenv("Localhost"),
-        # database=os.getenv('north'),
-        # user=os.getenv("maria"),
-        # password=os.getenv('maria')
         host="Localhost",
         database='north',
         user="maria",
